@@ -405,7 +405,7 @@ public class testing
 			*/
 			
 			
-			String name = "ram";
+			driver.get("https://google.com");
 			
 			
 			
