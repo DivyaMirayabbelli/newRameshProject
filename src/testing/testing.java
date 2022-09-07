@@ -404,12 +404,17 @@ public class testing
 			driver.findElement(By.xpath("//input[@name='q']")).sendKeys("ram");
 			*/
 			
-			
-			driver.get("https://google.com");
-			
-			
-			
-				
+		driver.get("https://google.com");
+		driver.findElement(By.name("q")).sendKeys("ram");
+		Thread.sleep(2000);
+		List<WebElement> slist =driver.findElement(By.className("G43f7e")).findElements(By.tagName("li"));
+				System.out.println(slist.size());
+				for(int i =0; i<slist.size()-6; i++)
+				{
+					String klist=slist.get(i).getText();
+					System.out.println(klist);
+					
+				}
 }
 }
 			

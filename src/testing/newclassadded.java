@@ -9,7 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class newclassadded 
 {
 	
-		public void main (String[] arg){
+		public void main (String[] arg)
+		
 		{
 			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 			
@@ -21,4 +22,4 @@ public class newclassadded
 		}
 
 }
-}
+
